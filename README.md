@@ -73,15 +73,80 @@ Answer the following questions based on your understanding of the installation a
 
 7. File and Folder Management:
    - Explain how to create, open, and manage files and folders in VS Code. How can users navigate between different files and directories efficiently?
+   Creating Files and Folders
+
+    Using the File Explorer
+        Open File Explorer: Click the Explorer icon in the Activity Bar or press Ctrl+Shift+E (Windows/Linux) or Cmd+Shift+E (macOS).
+        Create a New File: Right-click in the Explorer pane and select New File, or use the New File icon at the top of the Explorer pane. You can also use the keyboard shortcut Ctrl+N (Windows/Linux) or Cmd+N (macOS) to create a new untitled file.
+        Create a New Folder: Right-click in the Explorer pane and select New Folder, or use the New Folder icon at the top of the Explorer pane.
+
+    Using the Command Palette
+        Create a New File: Open the Command Palette with Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (macOS), type File: New File, and press Enter.
+        Create a New Folder: Open the Command Palette, type File: New Folder, and press Enter.
+
+Opening Files and Folders
+
+    Using the File Explorer
+        Open a File: Double-click on a file in the Explorer pane.
+        Open a Folder: Click the Open Folder button in the Explorer pane or use File > Open Folder from the menu.
+
+    Using the Command Palette
+        Open a File: Open the Command Palette, type File: Open File, and press Enter.
+        Open a Folder: Open the Command Palette, type File: Open Folder, and press Enter.
+
+    Using Drag and Drop
+        Drag and drop files or folders from your file system into the VS Code window to open them.
+
+Managing Files and Folders
+
+    Rename Files and Folders
+        Right-click on a file or folder in the Explorer pane and select Rename, or use the keyboard shortcut F2.
+
+    Move Files and Folders
+        Drag and drop files or folders within the Explorer pane to move them. You can also cut (Ctrl+X or Cmd+X) and paste (Ctrl+V or Cmd+V) files and folders.
+
+    Delete Files and Folders
+        Right-click on a file or folder in the Explorer pane and select Delete, or use the keyboard shortcut Delete.
+
+Navigating Between Files and Directories Efficiently
+
+    Quick Open
+        Press Ctrl+P (Windows/Linux) or Cmd+P (macOS) to open the Quick Open dialog. Type the name of the file you want to open and press Enter.
+
+    Go to Symbol
+        Press Ctrl+Shift+O (Windows/Linux) or Cmd+Shift+O (macOS) to quickly navigate to a symbol in the current file.
+
+    Go to Definition
+        Right-click on a symbol and select Go to Definition, or press F12 to jump to the definition of a symbol.
+
+    Breadcrumb Navigation
+        Use the breadcrumbs at the top of the editor to navigate through the file hierarchy and symbols within the file.
+
+    Explorer Shortcuts
+        Press Ctrl+Shift+E (Windows/Linux) or Cmd+Shift+E (macOS) to focus the Explorer pane and use the arrow keys to navigate through the file tree.
+        Press Alt+Left Arrow to navigate backward and Alt+Right Arrow to navigate forward in your file history.
+
+    Side-by-Side Editing
+        Split the editor by right-clicking on a file tab and selecting Split Right or Split Down. You can also use the keyboard shortcut Ctrl+\ (Windows/Linux) or Cmd+\ (macOS) to split the editor.
+
+    Explorer Search
+        Use the search functionality in the Explorer pane to find files and folders by name.
+
 
 8. Settings and Preferences:
    - Where can users find and customize settings in VS Code? Provide examples of how to change the theme, font size, and keybindings.
 
 9. Debugging in VS Code:
    - Outline the steps to set up and start debugging a simple program in VS Code. What are some key debugging features available in VS Code?
+   
+   In the settings click on view where you can access the customization settings
+
 
 10. Using Source Control:
     - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
+
+   you can create a new ssh ky and link it with github
+
 
  Submission Guidelines:
 - Your answers should be well-structured, concise, and to the point.
